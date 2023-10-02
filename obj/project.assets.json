@@ -2038,24 +2038,32 @@
     ]
   },
   "packageFolders": {
-    "/home/luke/.nuget/packages/": {}
+    "C:\\Users\\lmnew\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/luke/dotnet/YourBlazorApp/YourBlazorApp.csproj",
+      "projectUniqueName": "C:\\tmp\\YourBlazorApp\\YourBlazorApp.csproj",
       "projectName": "YourBlazorApp",
-      "projectPath": "/home/luke/dotnet/YourBlazorApp/YourBlazorApp.csproj",
-      "packagesPath": "/home/luke/.nuget/packages/",
-      "outputPath": "/home/luke/dotnet/YourBlazorApp/obj/",
+      "projectPath": "C:\\tmp\\YourBlazorApp\\YourBlazorApp.csproj",
+      "packagesPath": "C:\\Users\\lmnew\\.nuget\\packages\\",
+      "outputPath": "C:\\tmp\\YourBlazorApp\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/luke/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\lmnew\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2098,7 +2106,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/home/luke/.dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

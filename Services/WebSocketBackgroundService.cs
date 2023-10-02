@@ -36,7 +36,7 @@ public class WebSocketBackgroundService : IHostedService
           while (!_cancellationTokenSource.Token.IsCancellationRequested)
         {
             // Handle WebSocket connections and messages via SignalR hub
-            await Task.Delay(1000); // Adjust delay as needed
+            Task.Delay(1000); // Adjust delay as needed
         }
         // var listener = new HttpListener();
         // listener.Prefixes.Add("http://0.0.0.0:8080/"); // Adjust the URL as needed
@@ -59,6 +59,7 @@ public class WebSocketBackgroundService : IHostedService
         //         context.Response.Close();
         //     }
         // }
+        return Task.CompletedTask;
     }
 
     public void StopWebSocketServer()
@@ -66,7 +67,7 @@ public class WebSocketBackgroundService : IHostedService
          _cancellationTokenSource.Cancel();
         foreach (var client in _clients)
         {
-            await client.CloseAsync(WebSocketCloseStatus.NormalClosure, "Server shutting down", CancellationToken.None);
+            client.CloseAsync(WebSocketCloseStatus.NormalClosure, "Server shutting down", CancellationToken.None);
         }
      
     }
