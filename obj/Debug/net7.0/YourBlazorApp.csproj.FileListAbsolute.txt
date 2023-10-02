@@ -1,0 +1,8 @@
+/home/luke/dotnet/YourBlazorApp/obj/Debug/net7.0/YourBlazorApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/luke/dotnet/YourBlazorApp/obj/Debug/net7.0/YourBlazorApp.AssemblyInfoInputs.cache
+/home/luke/dotnet/YourBlazorApp/obj/Debug/net7.0/YourBlazorApp.AssemblyInfo.cs
+/home/luke/dotnet/YourBlazorApp/obj/Debug/net7.0/YourBlazorApp.csproj.CoreCompileInputs.cache
+/home/luke/dotnet/YourBlazorApp/obj/Debug/net7.0/YourBlazorApp.MvcApplicationPartsAssemblyInfo.cache
+/home/luke/dotnet/YourBlazorApp/obj/Debug/net7.0/YourBlazorApp.RazorAssemblyInfo.cache
+/home/luke/dotnet/YourBlazorApp/obj/Debug/net7.0/YourBlazorApp.RazorAssemblyInfo.cs
+/home/luke/dotnet/YourBlazorApp/obj/Debug/net7.0/YourBlazorApp.csproj.AssemblyReference.cache
